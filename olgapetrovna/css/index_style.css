@@ -1,118 +1,129 @@
-
+/* Header */
 
 header {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .header_text > .header_title {
+    margin-bottom: 0;
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 2rem;
-    margin-bottom: 0;
 }
 
 .header_text > .header_subtitle {
     color: #EB5757;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1rem;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
+
+
+
+/* Main */
 
 main {
     margin-top: 1rem;
 }
 
-.navbar-item {
-    padding: 0;
-    height: 24rem;
+.navbar_item {
+    height: 23.75rem;
     padding: 1.5rem;
-    border: .9rem solid #fff;
-    box-sizing: border-box;
+    border: 0.9375rem solid #fff;
 }
 
-.navbar-creed {
-    padding: 1.5rem;
+.navbar_item:hover {
+    border: 0.9375rem solid #EEE;
 }
 
-.navbar-item-1 {
-    background: url(../img/navbar-career.jpg);
-    background-size: cover;
-}
-.navbar-item-2 {
-    background: url(../img/navbar-innovation.jpg);
-    background-size: cover;
-}
-.navbar-item-3 {
-    background: url(../img/navbar-students.jpg);
-    background-size: cover;
-}
-.navbar-item-4 {
-    background: url(../img/navbar-other.jpg);
-    background-size: cover;
+.navbar_creed {
+    padding: 1rem;
 }
 
-.navbar-item_title {
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    text-transform: uppercase;
-}
-
-.navbar-item_subnav {
-    width: 12rem;
-    margin-top: 1rem;
-}
-
-.navbar-item_subnav_link > a {
-    color: #fff;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1.3rem;
-    font-weight: 500;
-    font-size: 1rem;
-}
-
-.navbar-item_subnav_link {
-    margin-bottom: 0.3rem;
-}
-
-footer {
-    margin-top: 1rem;
-}
-
-p.footer-link {
-    color: #828282;
-    font-size: 1.25rem;
-    font-weight: 600;
-}
-
-p.footer-link > a {
-    color: #EB5757;
-    font-size: 1.25rem;
-    font-weight: 600;
-    
-}
-.social {
-    display: flex;
-    float: right;
-}
-
-.social-item {
-    margin-left: 1rem;    
-}
-
-p.creed-title {
-    margin-top: 1.5rem;
+p.creed_title {
+    margin-top: 3rem;
     color: #EB5757;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-p.creed-text {
+p.creed_text {
     margin-top: 2rem;
     font-size: 1.5rem;
     font-weight: 400;
     text-indent: 3rem;
 }
+
+.navbar_item_1 {
+    background: url(../img/navbar-career.jpg);
+    background-size: cover;
+}
+.navbar_item_2 {
+    background: url(../img/navbar-innovation.jpg);
+    background-size: cover;
+}
+.navbar_item_3 {
+    background: url(../img/navbar-students.jpg);
+    background-size: cover;
+}
+.navbar_item_4 {
+    background: url(../img/navbar-other.jpg);
+    background-size: cover;
+}
+
+.navbar_item_title {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.0625rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+}
+
+.navbar_item_subnav {
+    width: 16rem;
+    margin-top: 1rem;
+}
+
+.navbar_item_subnav_link > .subnav_link {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.navbar_item_subnav_link {
+    margin-bottom: 0.25rem;
+}
+
+
+
+/* Footer */
+
+footer {
+    margin-top: 1rem;
+}
+
+p.footer_text {
+    color: #828282;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+p.footer_text > .footer_link {
+    color: #EB5757;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.footer_social {
+    display: flex;
+    float: right;
+}
+
+.social_item {
+    margin-left: 1rem;    
+}
+
 
