@@ -8,18 +8,18 @@ header {
     height: 4.5rem;
 }
 
-.header-logo {
+.header_logo {
     padding: 1rem;
 }
 
-.header-logo__title {
+.header_logo_title {
     margin: 0;
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
 }
 
-.header-logo__subtitle {
+.header_logo_subtitle {
     margin: 0;
     color: #EB5757;
     font-size: 12px;
@@ -27,19 +27,19 @@ header {
     line-height: 16px;
 }
 
-.header-navbar {
+.header_navbar {
     display: flex;
 }
 
 
-.header-navbar-elem__p {
+.header_navbar_elem_p {
     display: block;
     position: relative;
     height: 4.5rem;
     margin: 0;
 }
 
-.header-navbar-elem__link {
+.header_navbar_elem_link {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -50,20 +50,20 @@ header {
     text-align: center;
 }
 
-.header-navbar-elem__link:hover {
+.header_navbar_elem_link:hover {
     color: #EB5757;
     text-decoration: none;
 }
 
-.active-link {
+.active_link {
     background: #EB5757;
 }
 
-.active-link p a {
+.active_link p a {
     color: #fff;
 }
 
-.active-link p a:hover {
+.active_link p a:hover {
     color: #fff;
     text-decoration: none;
 }
@@ -73,53 +73,108 @@ header {
 /* Main */
 
 main > section {
-    margin-top: 2.5rem;
+    margin-top: 3rem;
+}
+
+.section_title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+section .card {
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+
+section .card:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
 }
 
 
 
 /* Steps */
 
-.section__title {
-    font-weight: 600;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.steps__blocks {
-    display: flex;
-    justify-content: space-between
-}
-
-.steps__elem {
-    width: 22rem;
-    box-shadow: 0 0 5px rgba(0,0,0,.1);
-    height: 32rem;
-}
-.steps__elem:hover {
-    box-shadow: 0 0 5px rgba(0,0,0,.2);
-    
-}
-
-/* Career */
-
-.career__blocks {
+.steps_blocks {
     display: flex;
     justify-content: space-between;
 }
 
-.career__elem {
-    width: 33.75rem;
-    box-shadow: 0 0 5px rgba(0,0,0,.1);
+.steps_elem {
+    width: 22rem;
+    height: 32rem;
 }
 
-.career__img {
+
+
+/* Career */
+
+.career_blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.career_elem {
+    width: 33.75rem;
+}
+
+.career_img {
     margin-bottom: 1rem;
 }
 
-.date {
+.career_date {
     text-align: right;
 }
 
+
+
 /* Achievements */
 
+.achievs_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.achievs_elem {
+    width: 16rem;
+    margin-bottom: 1.875rem;
+}
+
+
+
+/* Skills */
+
+section.skills {
+    margin-top: 1.625rem;
+}
+
+
+
+/* Footer */
+
+footer {
+    height: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+p.footer_text {
+    color: #828282;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+p.footer_text > .footer_link {
+    color: #EB5757;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.footer_social {
+    display: flex;
+    float: right;
+}
+
+.social_item {
+    margin-left: 1rem;    
+}

@@ -33,7 +33,7 @@ main {
 }
 
 .navbar_item:hover {
-    border: 0.9375rem solid #EEE;
+    border: 0.9375rem solid rgba(244,244,244);
 }
 
 .navbar_creed {
@@ -71,13 +71,18 @@ p.creed_text {
     background-size: cover;
 }
 
-.navbar_item_title {
+.navbar_item_title_link {
     color: #fff;
     font-weight: 700;
     letter-spacing: 0.0625rem;
     font-size: 1.5rem;
     line-height: 2rem;
     text-transform: uppercase;
+}
+
+.navbar_item_title_link:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 .navbar_item_subnav {
@@ -102,7 +107,7 @@ p.creed_text {
 /* Footer */
 
 footer {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 p.footer_text {
