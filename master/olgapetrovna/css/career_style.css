@@ -131,6 +131,7 @@ section .card:hover {
 .achievs_block {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between
 }
 
 .achievs_elem {
@@ -188,6 +189,5 @@ p.footer_text > .footer_link {
     }
     .achievs_elem {
         flex-basis: 290px;
-        justify-content: space-between;
     }
 }
