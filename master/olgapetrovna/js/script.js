@@ -1,3 +1,5 @@
+LIMIT_TO_REPLACE_CAREER_AND_CREED = 910
+
 function replaceCreedAndNavbarItem1() {
     navbar_item_1 = $("#navbar_item_1")
     creed = $("#navbar_creed");
@@ -12,16 +14,16 @@ function replaceNavbarItem1AndCreed() {
     $("#navbar_item_1").after(creed);
 }
 
-if(innerWidth < 992) {
+if(innerWidth < LIMIT_TO_REPLACE_CAREER_AND_CREED) {
     replaceCreedAndNavbarItem1();
 }
 
 
 window.addEventListener("resize", function() {
-    if(innerWidth < 992) {
+    if(innerWidth < LIMIT_TO_REPLACE_CAREER_AND_CREED) {
         replaceCreedAndNavbarItem1();
     }
-    else if(innerWidth >= 992) {
+    else if(innerWidth >= LIMIT_TO_REPLACE_CAREER_AND_CREED) {
         replaceNavbarItem1AndCreed();
     }
 });

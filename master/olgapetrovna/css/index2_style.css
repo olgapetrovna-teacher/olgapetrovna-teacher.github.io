@@ -204,12 +204,6 @@ p.footer_text > .footer_link {
         text-align: center;
         margin-bottom: 30px;
     }
-    .navbar_item:not(:nth-child(1)):hover {
-        border: 1vw solid rgba(240,240,240);
-    }
-    #navbar_creed:hover {
-        border: 1vw solid #fff;
-    }
     p.header_title {
         width: 60vw;
         margin: 0 10vw;
@@ -240,12 +234,6 @@ p.footer_text > .footer_link {
         width: 78vw;
         margin: 0 7vw;
     }
-    .navbar_item:not(:nth-child(1)):hover {
-        border: 1vw solid rgba(240,240,240);
-    }
-    #navbar_creed:hover {
-        border: 1vw solid #fff;
-    }
     #navbar_creed {
         flex-basis: 92vw;
         padding: 2vw;
@@ -257,7 +245,6 @@ p.footer_text > .footer_link {
     }
     footer {
         width: 92vw;
-        margin-bottom: 60px;
     }
 }
 
@@ -265,9 +252,6 @@ p.footer_text > .footer_link {
     .wrapper {
         width: 100vw;
         padding: 0 2vw;
-    }
-    .navbar_item:not(:nth-child(1)):hover {
-        border: 1vw solid rgba(240,240,240);
     }
     header {
         text-align: center;
@@ -288,9 +272,6 @@ p.footer_text > .footer_link {
         flex-basis: 96vw;
         height: 25vw;
     }
-    #navbar_creed:hover {
-        border: 1vw solid #fff;
-    }
     .navbar_item {
         flex-basis: 48vw;
         height: 48vw;
@@ -301,7 +282,7 @@ p.footer_text > .footer_link {
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 548px) {
     .wrapper {
         width: 100vw;
         padding: 0 2vw;
@@ -309,12 +290,6 @@ p.footer_text > .footer_link {
     header {
         text-align: center;
         margin-bottom: 20px;
-    }
-    .navbar_item:not(:nth-child(1)):hover {
-        border: 1vw solid rgba(240,240,240);
-    }
-    #navbar_creed:hover {
-        border: 1vw solid #fff;
     }
     .navbar {
         flex-direction: column;
