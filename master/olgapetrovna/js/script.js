@@ -15,10 +15,7 @@ function replaceNavbarItem1AndCreed() {
 if(innerWidth < 992) {
     replaceCreedAndNavbarItem1();
 }
-if(innerWidth < 531) {
-    $(".container").addClass("wrapper");
-    $(".wrapper").removeClass("container");
-}
+
 
 window.addEventListener("resize", function() {
     if(innerWidth < 992) {
@@ -26,12 +23,5 @@ window.addEventListener("resize", function() {
     }
     else if(innerWidth >= 992) {
         replaceNavbarItem1AndCreed();
-    }
-    if(innerWidth < 531) {
-        $(".container").addClass("wrapper");
-        $(".container").removeClass("container");
-    } else {  
-        $(".wrapper").addClass("container");
-        $(".container").removeClass("wrapper");
     }
 });

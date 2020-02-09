@@ -248,7 +248,7 @@ p.footer_text > .footer_link {
     }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 510px) {
     .header_text {
         text-align: center;
     }
@@ -279,7 +279,7 @@ p.footer_text > .footer_link {
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .header_text {
         text-align: center;
     }
@@ -292,7 +292,7 @@ p.footer_text > .footer_link {
         line-height: 16px;
     }
     .navbar_item {
-        flex-basis: 320px;
+        flex-basis: 290px;
         width: 100%;
     }
     #navbar_creed {
@@ -301,8 +301,12 @@ p.footer_text > .footer_link {
         padding: 0;
     }
     p.creed_text {
+        margin: 8px 0px;
         font-size: 18px;
         text-indent: 30px;
+    }
+    p.creed_title {
+        margin-bottom: 0;
     }
     .navbar {
         flex-direction: column;
