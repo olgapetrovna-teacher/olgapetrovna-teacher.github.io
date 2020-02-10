@@ -9,7 +9,13 @@ a {
     font-weight: 600;
 }
 
-/* Fonts */
+a:hover {
+    color: #EB5757;
+}
+
+
+
+/* Fonts 'Roboto Slab' */
 
 @font-face {
     font-family: 'Roboto Slab';

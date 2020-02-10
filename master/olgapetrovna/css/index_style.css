@@ -1,5 +1,5 @@
 .wrapper {
-    width: 1110px;
+    width: 1140px;
     margin: 0 auto;
 }
 
@@ -9,14 +9,14 @@ header {
     margin-top: 15px;
 }
 
-.header_text > .header_title {
-    margin-bottom: 0;
-    font-weight: 600;
+.header_title {
+    margin: 0;
+    font-weight: 500;
     font-size: 24px;
     line-height: 32px;
 }
 
-.header_text > .header_subtitle {
+.header_subtitle {
     color: #EB5757;
     font-weight: 600;
     font-size: 16px;
@@ -38,26 +38,22 @@ main {
 }
 
 .navbar_item {
-    height: 370px;
-    flex-basis: 370px;
-    padding: 24px;
-    border: 15px solid #fff;
+    flex-basis: 380px;
+    height: 380px;
+    padding: 24px 28px;
+    border: 10px solid #fff;
 }
 
 .navbar_item:not(:nth-child(2)):hover {
-    border: 15px solid rgba(240,240,240);
+    border: 10px solid rgba(240,240,240);
 }
 
 #navbar_creed {
-    padding: 0;
-    flex-basis: 740px;
+    flex-basis: 760px;
+    padding: 60px 10px 0 10px;
 }
 
-.creed_content {
-    margin-top: 60px;
-}
-
-p.creed_title {
+.creed_title {
     color: #EB5757;
     font-weight: 600;
     text-transform: uppercase;
@@ -65,32 +61,32 @@ p.creed_title {
     line-height: 24px;
 }
 
-p.creed_text {
+.creed_text {
     font-size: 24px;
-    font-weight: 500;
-    text-indent: 50px;
+    font-weight: 400;
+    text-indent: 40px;
 }
 
 #navbar_item_1 {
-    background: url(../img/navbar-career.jpg);
+    background: url(../img/navbar-career.jpg) no-repeat center;
     background-size: cover;
 }
 #navbar_item_2 {
-    background: url(../img/navbar-innovation.jpg);
+    background: url(../img/navbar-innovation.jpg) no-repeat center;
     background-size: cover;
 }
 #navbar_item_3 {
-    background: url(../img/navbar-students.jpg);
+    background: url(../img/navbar-students.jpg) no-repeat center;
     background-size: cover;
 }
 #navbar_item_4 {
-    background: url(../img/navbar-other.jpg);
+    background: url(../img/navbar-other.jpg) no-repeat center;
     background-size: cover;
 }
 
 .navbar_item_title_link {
     color: #fff;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
     font-size: 24px;
     line-height: 32px;
@@ -103,19 +99,23 @@ p.creed_text {
 }
 
 .navbar_item_subnav {
-    width: 80%;
-    margin-top: 15px;
-}
-
-.navbar_item_subnav_link > .subnav_link {
-    color: #fff;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
+    width: 250px;
+    margin-top: 20px;
 }
 
 .navbar_item_subnav_link {
-    margin-bottom: 4px;
+    margin-bottom: 6px;
+}
+
+.subnav_link {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.subnav_link:hover {
+    color: #fff;
 }
 
 
@@ -123,24 +123,24 @@ p.creed_text {
 /* Footer */
 
 footer {
-    height: 36px;
-    margin-top: 30px;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    height: 36px;
+    margin: 25px 0;
 }
 
-p.footer_text {
+.footer_text {
     display: block;
     color: #828282;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 36px;
 }
 
-p.footer_text > .footer_link {
+.footer_link {
     color: #EB5757;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .footer_social {
@@ -156,213 +156,104 @@ p.footer_text > .footer_link {
 
 /* Media requests */
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1160px) {
+    
     .wrapper {
-        width: 94vw;
-        padding: 0 0.5vw;
-        margin: 0 auto;
+        width: 100vw;
+        padding: 0 .5vw;
     }
+    
     header {
-        width: 94vw;
-        margin: 15px auto;
+        width: 99vw;
+        padding: 0 1vw;
     }
+    
+    main {
+        margin-top: 20px;
+    }
+    
     .navbar_item {
-        flex-basis: 31vw;
-        height: 31vw;
-        border: 1vw solid #fff;
-        padding: 2vw;
+        flex-basis: 33vw;
+        height: 33vw;
     }
+    
+    #navbar_creed {
+        flex-basis: 66vw;
+        padding: 20px 10px 0 10px;
+    }
+    
     .navbar_item_subnav {
         width: 25vw;
     }
-    .navbar_item:not(:nth-child(2)):hover {
-        border: 1vw solid rgba(240,240,240);
-    }
-    #navbar_creed {
-        flex-basis: 62vw;
-        position: relative;
-    }
-    .creed_content {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+    
     footer {
-        width: 94vw;
-        margin: 30px auto;
+        margin: 20px 0;
+        padding: 0 1vw;
     }
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 960px) {
+    
     .wrapper {
-        width: 80vw;
-        padding: 0;
+        width: 92vw;
+        padding: 0 1vw;
     }
-    header {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    .navbar_item:not(:nth-child(1)):hover {
-        border: 1vw solid rgba(240,240,240);
-    }
-    #navbar_creed:hover {
-        border: 1vw solid #fff;
-    }
-    p.header_title {
-        width: 60vw;
-        margin: 0 10vw;
-    }
+    
     #navbar_creed {
-        flex-basis: 80vw;
-        height: 35vw;
+        flex-basis: 90vw;
+        height: auto;
     }
+    
     .navbar_item {
-        flex-basis: 40vw;
-        height: 40vw;
+        flex-basis: 45vw;
+        height: 45vw;
     }
-    footer {
-        width: 80vw;
+    
+    .navbar_item:not(:nth-child(1)):hover {
+        border: 10px solid rgba(240,240,240);
+    }
+    
+    #navbar_creed:hover {
+        border: 10px solid #fff;
     }
 }
 
 @media screen and (max-width: 720px) {
     .wrapper {
-        width: 96vw;
+        width: 100vw;
+        padding: 0 1vw;
+    }
+    
+    header {
         padding: 0 2vw;
     }
-    header {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    p.header_title {
-        width: 78vw;
-        margin: 0 7vw;
-    }
-    .navbar_item:not(:nth-child(1)):hover {
-        border: 1vw solid rgba(240,240,240);
-    }
-    #navbar_creed:hover {
-        border: 1vw solid #fff;
-    }
+    
     #navbar_creed {
-        flex-basis: 92vw;
-        padding: 2vw;
+        flex-basis: 98vw;
     }
+    
     .navbar_item {
-        flex-basis: 46vw;
-        height: 46vw;
-        padding: 3vw;
+        flex-basis: 49vw;
+        height: 49vw;
     }
+    
     footer {
-        width: 92vw;
-        margin-bottom: 60px;
+        padding: 0 3vw;
     }
 }
 
-@media screen and (max-width: 658px) {
-    .wrapper {
-        width: 100vw;
-        padding: 0 2vw;
-    }
-    .navbar_item:not(:nth-child(1)):hover {
-        border: 1vw solid rgba(240,240,240);
-    }
-    header {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    p.header_title {
-        width: 80vw;
-        margin: 0 10vw;
-    }
-    p.creed_text {
-        font-size: 18px;
-    }
-    p.creed_title {
-        font-size: 14px;
-        line-height: 16px;
-    }
-    #navbar_creed {
-        flex-basis: 96vw;
-        height: 25vw;
-    }
-    #navbar_creed:hover {
-        border: 1vw solid #fff;
-    }
-    .navbar_item {
-        flex-basis: 48vw;
-        height: 48vw;
-        padding: 3vw;
-    }
-    footer {
-        width: 90vw;
-    }
+@media screen and (max-width: 540px) {
+    
 }
 
-@media screen and (max-width: 640px) {
-    .wrapper {
-        width: 100vw;
-        padding: 0 2vw;
-    }
-    header {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .navbar_item:not(:nth-child(1)):hover {
-        border: 1vw solid rgba(240,240,240);
-    }
-    #navbar_creed:hover {
-        border: 1vw solid #fff;
-    }
-    .navbar {
-        flex-direction: column;
-    }
-    p.header_title {
-        width: 80vw;
-        margin: 0 10vw;
-    }
-    p.creed_text {
-        font-size: 24px;
-        line-height: 32px;
-    }
-    p.creed_title {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    #navbar_creed {
-        flex-basis: 50vw;
-        width: 96vw;
-    }
-    .navbar_item {
-        flex-basis: 96vw;
-        width: 96vw;
-        padding: 7vw;
-    }
-    .navbar_item_title_link {
-        font-size: 36px;
-    }
-    .navbar_item_subnav {
-        width: 70vw;
-    }
-    .navbar_item_subnav_link > .subnav_link {
-        font-size: 24px;
-        line-height: 36px;
-    }
-    .navbar_item_subnav_link {
-        margin-bottom: 8px;
-    }
-    footer {
-        flex-direction: column;
-        align-items: center;
-        width: 90vw;
-        margin-bottom: 130px;
-    }
-    footer > .footer_text {
-        font-size: 20px;
-    }
-    footer > .footer_text > .footer_link {
-        font-size: 20px;
-    }
+@media screen and (max-width: 480px) {
+    
+}
+
+@media screen and (max-width: 360px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+    
 }

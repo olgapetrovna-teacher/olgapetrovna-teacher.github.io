@@ -1,4 +1,4 @@
-LIMIT_TO_REPLACE_CAREER_AND_CREED = 910
+LIMIT_TO_REPLACE_CAREER_AND_CREED = 961
 
 function replaceCreedAndNavbarItem1() {
     navbar_item_1 = $("#navbar_item_1")
