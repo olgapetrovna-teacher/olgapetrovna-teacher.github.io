@@ -13,7 +13,18 @@ a:hover {
     color: #EB5757;
 }
 
+html, body {
+  overflow: hidden;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
 
+body {
+  overflow-y: scroll;
+  width: calc(100% + 20px);
+  padding: 0px;
+}
 
 /* Fonts 'Roboto Slab' */
 

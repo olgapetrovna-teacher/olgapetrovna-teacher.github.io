@@ -149,7 +149,7 @@ footer {
 }
 
 .social_item {
-    margin-left: 15px;    
+    margin-left: 18px;    
 }
 
 
@@ -228,32 +228,119 @@ footer {
         padding: 0 2vw;
     }
     
+    main {
+        margin-top: 15px;
+    }
+    
     #navbar_creed {
         flex-basis: 98vw;
+        padding-top: 0;
     }
     
     .navbar_item {
         flex-basis: 49vw;
         height: 49vw;
+        border: 1vw solid #fff;
+    }
+    
+    .navbar_item:not(:nth-child(1)):hover {
+        border: 1vw solid rgba(240,240,240);
+    }
+    
+    #navbar_creed:hover {
+        border: 1vw solid #fff;
+    }
+    
+    .navbar_item_subnav {
+        width: 36vw;
+        margin-top: 10px;
+    }
+    
+    .navbar_item_subnav_link {
+        margin-bottom: 4px;
+        line-height: 24px;
+    }
+    
+    .subnav_link {
+        font-size: 18px;
     }
     
     footer {
         padding: 0 3vw;
+        height: auto;
+        margin: 15px 0;
     }
 }
 
 @media screen and (max-width: 540px) {
+    .wrapper {
+        width: 360px;
+    }
     
-}
-
-@media screen and (max-width: 480px) {
+    header {
+        width: 360px;
+    }
     
+    .header_text {
+        text-align: center;
+    }
+    
+    .creed_text {
+        font-size: 20px;
+    }
+    
+    .navbar_item {
+        flex-basis: 360px;
+        height: 360px;
+    }
+    
+    .navbar_item_subnav {
+        width: 250px;
+    }
+    
+    footer {
+        width: 360px;
+        flex-direction: column;
+    }
+    
+    .footer_text {
+        text-align: center;
+    }
+    
+    .footer_social {
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 360px) {
+    .wrapper {
+        width: 100vw;
+        padding: 0;
+    }
     
-}
-
-@media screen and (max-width: 320px) {
+    header {
+        width: 100vw;
+    }
     
+    main {
+        margin-top: 30px;
+    }
+    
+    .navbar_item {
+        flex-basis: 100vw;
+        height: 100vw;
+    }
+    
+    .creed_title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .creed_text {
+        font-size: 18px;
+    }
+    
+    footer {
+        width: 100vw;
+    }
 }
