@@ -62,7 +62,7 @@ main {
 }
 
 .creed_text {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     text-indent: 40px;
 }
@@ -286,7 +286,7 @@ footer {
     }
     
     .creed_text {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .navbar_item {

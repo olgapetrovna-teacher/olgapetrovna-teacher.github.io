@@ -1,3 +1,8 @@
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 /* Header */
 
 header {
@@ -6,6 +11,8 @@ header {
 
 .header {
     height: 72px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header_logo {
@@ -15,7 +22,7 @@ header {
 .header_logo_title {
     margin: 0;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 24px;
 }
 
@@ -29,14 +36,13 @@ header {
 
 .header_navbar {
     display: flex;
+    flex-basis: 800px;
 }
 
-
-.header_navbar_elem_p {
-    display: block;
-    position: relative;
+.header_navbar_elem {
     height: 72px;
-    margin: 0;
+    flex-basis: 200px;
+    position: relative;
 }
 
 .header_navbar_elem_link {
@@ -72,7 +78,7 @@ header {
 
 /* Main */
 
-main > section {
+section {
     margin-top: 50px;
 }
 
@@ -82,11 +88,11 @@ main > section {
     margin-bottom: 20px;
 }
 
-section .card {
+.card {
     box-shadow: 0 0 5px rgba(0,0,0,.1);
 }
 
-section .card:hover {
+.card:hover {
     box-shadow: 0 0 5px rgba(0,0,0,.2);
 }
 
@@ -100,8 +106,9 @@ section .card:hover {
 }
 
 .steps_elem {
-    width: 350px;
+    flex-basis: 360px;
 }
+
 
 
 
@@ -113,11 +120,11 @@ section .card:hover {
 }
 
 .career_elem {
-    width: 540px;
+    width: 555px;
 }
 
 .career_img {
-    margin-bottom: 15px;
+    margin: 5px 0 15px 0;
 }
 
 .career_date {
@@ -131,12 +138,11 @@ section .card:hover {
 .achievs_block {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
 }
 
 .achievs_elem {
     flex-basis: 255px;
-    margin-bottom: 30px;
+    margin: 0px 15px 30px 15px;
 }
 
 
@@ -152,21 +158,24 @@ section.skills {
 /* Footer */
 
 footer {
-    height: 50px;
-    margin-top: 72px;
-    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 36px;
+    margin: 50px 0 20px 0;
 }
 
-p.footer_text {
+.footer_text {
+    display: block;
     color: #828282;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
+    line-height: 36px;
 }
 
-p.footer_text > .footer_link {
+.footer_link {
     color: #EB5757;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .footer_social {
@@ -175,19 +184,22 @@ p.footer_text > .footer_link {
 }
 
 .social_item {
-    margin-left: 15px;    
+    margin-left: 18px;    
 }
 
 
 
-@media screen and (max-width: 1199px) {
-    .steps_elem {
-        width: 290px;
+@media screen and (max-width: 1160px) {
+    .wrapper {
+        width: 100vw;
+        padding: 0 1vw;
     }
-    .career_elem {
-        width: 450px;
+    
+    header {
+        width: 98vw;
     }
-    .achievs_elem {
-        flex-basis: 290px;
+    
+    .header_navbar_elem {
+        flex-basis: 20vw;
     }
 }
