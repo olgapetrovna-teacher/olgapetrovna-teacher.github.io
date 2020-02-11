@@ -116,7 +116,6 @@ section {
 
 
 
-
 /* Career */
 
 .career_block {
@@ -132,10 +131,6 @@ section {
     margin: 5px 0 15px 0;
 }
 
-.career_date {
-    text-align: right;
-}
-
 
 
 /* Achievements */
@@ -147,9 +142,9 @@ section {
 
 .achievs_elem {
     flex-basis: 255px;
-    margin: 0px 15px 30px 15px;
+    margin-bottom: 30px;
+    margin-right: 30px;
 }
-
 
 
 /* Skills */
@@ -194,6 +189,7 @@ footer {
 
 
 
+/*
 @media screen and (max-width: 1160px) {
     .wrapper {
         width: 100vw;
@@ -349,4 +345,4 @@ footer {
     .achievs_elem {
         flex-basis: 96vw;
     }
-}
+}*/

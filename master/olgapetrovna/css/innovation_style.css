@@ -1,0 +1,159 @@
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    border-bottom: 2px solid #EB5757;
+}
+
+.header {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    padding: 15px;
+}
+
+.header_logo_title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.header_logo_subtitle {
+    margin: 0;
+    color: #EB5757;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.header_navbar {
+    display: flex;
+    flex-basis: 800px;
+    align-items: flex-end;
+}
+
+.hidden_navbar {
+    display: none;
+}
+
+.header_navbar_elem {
+    height: 72px;
+    flex-basis: 200px;
+    position: relative;
+}
+
+.header_navbar_elem_link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #666;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header_navbar_elem_link:hover {
+    color: #EB5757;
+    text-decoration: none;
+}
+
+.active_link {
+    background: #EB5757;
+}
+
+.active_link p a {
+    color: #fff;
+}
+
+.active_link p a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* Main */
+
+section {
+    margin-top: 50px;
+}
+
+.section_title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card {
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+
+.card:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+
+
+
+/* Film About Class */
+
+.film-about-class_elem {
+    width: 1140px;
+}
+
+
+
+/* Events */
+
+.events_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.events_elem {
+    flex-basis: 360px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 36px;
+    margin: 50px 0 20px 0;
+}
+
+.footer_text {
+    display: block;
+    color: #828282;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.footer_link {
+    color: #EB5757;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer_social {
+    display: flex;
+    float: right;
+}
+
+.social_item {
+    margin-left: 18px;    
+}
