@@ -22,7 +22,7 @@ header {
 .header_logo_title {
     margin: 0;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 24px;
 }
 
@@ -30,7 +30,7 @@ header {
     margin: 0;
     color: #EB5757;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 16px;
 }
 
@@ -168,181 +168,12 @@ footer {
     display: block;
     color: #828282;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 36px;
 }
 
 .footer_link {
     color: #EB5757;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: inherit;
 }
-
-.footer_social {
-    display: flex;
-    float: right;
-}
-
-.social_item {
-    margin-left: 18px;    
-}
-
-
-
-/*
-@media screen and (max-width: 1160px) {
-    .wrapper {
-        width: 100vw;
-        padding: 0 1vw;
-    }
-    
-    header {
-        width: 98vw;
-    }
-    
-    .header_navbar_elem {
-        flex-basis: 20vw;
-    }
-
-    .header_logo {
-        width: 20vw;
-    }
-    
-    .steps_elem {
-        flex-basis: 31vw;
-    }
-    
-    .career_elem {
-        flex-basis: 48vw;
-    }
-    
-    .achievs_elem {
-        flex-basis: 28.5vw;
-    }
-}
-
-@media screen and (max-width: 945px) {
-    .header_navbar_elem {
-        flex-basis: 17.5vw;
-    }
-
-    .header_logo {
-        width: 30vw;
-    }
-}
-
-@media screen and (max-width: 780px) {
-    .header_navbar_elem {
-        flex-basis: 21vw;
-    }
-
-    .header_logo {
-        width: 37vw;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    header {
-        margin-bottom: 40px;
-        width: 540px;
-    }
-    
-    section {
-        margin-top: 20px;
-    }
-    
-    .wrapper {
-        width: 540px;
-        padding: 0;
-    }
-    
-    .steps_block, .career_block {
-        flex-direction: column;
-    }
-    
-    .steps_elem, .career_elem {
-        width: 540px;
-        margin-bottom: 30px;
-    }
-    
-    .achievs_block {
-        width: 540px;
-        justify-content: space-between
-    }
-    
-    .achievs_elem {
-        flex-basis: 255px;
-        margin: 0 0 30px 0;
-    }
-    
-    .header_logo {
-        width: 80vw;
-    }
-    
-    .header_navbar {
-        justify-content: flex-end;
-    }
-    
-    .header_navbar_elem {
-        display: none;
-    }
-    
-    footer {
-        width: 540px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .wrapper {
-        width: 100vw;
-        padding: 0 2vw;
-    }
-    
-    header {
-        width: 96vw;
-    }
-    
-    .header_logo {
-        flex-basis: 96vw;
-    }
-    
-    .header_navbar {
-        position: fixed;
-    }
-    
-    .steps_elem, .career_elem {
-        width: 96vw;
-        margin-bottom: 4vw;
-    }
-    
-    .steps_block, .career_block {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .section_title {
-        width: 96vw;
-    }
-    
-    .achievs_elem {
-        flex-basis: 46vw;
-        margin: 0 0 4vw 0;
-    }
-    
-    .achievs_block {
-        width: 96vw;
-    }
-    
-    footer {
-        width: 96vw;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 120px;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .achievs_elem {
-        flex-basis: 96vw;
-    }
-}*/

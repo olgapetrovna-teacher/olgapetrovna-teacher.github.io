@@ -22,7 +22,7 @@ header {
 .header_logo_title {
     margin: 0;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 24px;
 }
 
@@ -30,7 +30,7 @@ header {
     margin: 0;
     color: #EB5757;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 16px;
 }
 
@@ -103,6 +103,20 @@ section {
 
 
 
+/* Young GIBDD */
+
+.young-gibdd_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.young-gibdd_elem {
+    flex-basis: 555px;
+}
+
+
+
 /* Film About Class */
 
 .film-about-class_elem {
@@ -139,21 +153,12 @@ footer {
     display: block;
     color: #828282;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 36px;
 }
 
 .footer_link {
     color: #EB5757;
     font-size: 18px;
-    font-weight: 500;
-}
-
-.footer_social {
-    display: flex;
-    float: right;
-}
-
-.social_item {
-    margin-left: 18px;    
+    font-weight: inherit;
 }

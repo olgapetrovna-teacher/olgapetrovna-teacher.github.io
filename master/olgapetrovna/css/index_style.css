@@ -11,14 +11,14 @@ header {
 
 .header_title {
     margin: 0;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 24px;
     line-height: 32px;
 }
 
 .header_subtitle {
     color: #EB5757;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 16px;
     line-height: 24px;
 }
@@ -55,7 +55,7 @@ main {
 
 .creed_title {
     color: #EB5757;
-    font-weight: 600;
+    font-weight: 800;
     text-transform: uppercase;
     font-size: 16px;
     line-height: 24px;
@@ -68,26 +68,25 @@ main {
 }
 
 #navbar_item_1 {
-    background: url(../img/navbar-career.jpg) no-repeat center;
+    background: url(../img/index/navbar_career.jpg) no-repeat center;
     background-size: cover;
 }
 #navbar_item_2 {
-    background: url(../img/navbar-innovation.jpg) no-repeat center;
+    background: url(../img/index/navbar_innovation.jpg) no-repeat center;
     background-size: cover;
 }
 #navbar_item_3 {
-    background: url(../img/navbar-students.jpg) no-repeat center;
+    background: url(../img/index/navbar_students.jpg) no-repeat center;
     background-size: cover;
 }
 #navbar_item_4 {
-    background: url(../img/navbar-other.jpg) no-repeat center;
+    background: url(../img/index/navbar_other.jpg) no-repeat center;
     background-size: cover;
 }
 
 .navbar_item_title_link {
     color: #fff;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-weight: 800;
     font-size: 24px;
     line-height: 32px;
     text-transform: uppercase;
@@ -109,7 +108,7 @@ main {
 
 .subnav_link {
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 24px;
 }
@@ -133,23 +132,14 @@ footer {
     display: block;
     color: #828282;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 36px;
 }
 
 .footer_link {
     color: #EB5757;
     font-size: 18px;
-    font-weight: 500;
-}
-
-.footer_social {
-    display: flex;
-    float: right;
-}
-
-.social_item {
-    margin-left: 18px;    
+    font-weight: 600;
 }
 
 
