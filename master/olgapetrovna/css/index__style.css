@@ -149,6 +149,7 @@ footer {
     height: 40px;
     width: 40px;
     opacity: .8;
+    background: transparent;
 }
 
 .low-visible_link {
