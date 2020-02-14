@@ -103,6 +103,30 @@ section {
 
 
 
+/* Who am I */
+
+.who-am-i_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.who-am-i_elem {
+    flex-basis: 740px;
+}
+
+.who-am-i_image {
+    flex-basis: 370px;
+    background-image: url(../img/career/who-am-i.jpeg);
+    background-size: cover;
+    height: 580px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
 /* Steps */
 
 .steps_block {
